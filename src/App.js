@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/headers/Header";
+import TinderCards from "./components/cards/TinderCards";
 
 function App() {
   return (
     // BEM class naming convention.
     <div className="app">
       <Header />
-      
-      {/* TinderCards */}
+      <TinderCards />
       {/* SwipeButtons */}
     </div>
   );
