@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/headers/Header";
 import TinderCards from "./components/cards/TinderCards";
+import SwipeButtons from "./components/buttons/SwipeButtons";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
     <div className="app">
       <Header />
       <TinderCards />
-      {/* SwipeButtons */}
+      <SwipeButtons />
     </div>
   );
 }
